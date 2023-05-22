@@ -9,7 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  -- {
-  --   "ellisonleao/gruvbox.nvim"
-  -- }
+  {
+    "edgedb/edgedb-vim",
+    lazy = false
+  },
 }
